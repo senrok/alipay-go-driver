@@ -11,11 +11,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WenyXu/better-alipay-go/entity"
+	"github.com/senrok/alipay-go-kit/entity"
 
-	"github.com/WenyXu/better-alipay-go/global"
-	"github.com/WenyXu/better-alipay-go/m"
-	"github.com/WenyXu/better-alipay-go/options"
+	"github.com/senrok/alipay-go-kit/global"
+	"github.com/senrok/alipay-go-kit/m"
+	"github.com/senrok/alipay-go-kit/options"
 
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/assert"

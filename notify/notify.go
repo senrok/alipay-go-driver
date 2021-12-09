@@ -15,7 +15,7 @@ import (
 	"net/http"
 	"net/url"
 
-	_map "github.com/WenyXu/better-alipay-go/m"
+	_map "github.com/senrok/alipay-go-kit/m"
 )
 
 // ParseNotifyToStruct parse notify form into struct, reqOrValues accept a *http.Request or url.Values value

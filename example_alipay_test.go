@@ -7,9 +7,9 @@ Copyright 2020 RS4
 package alipay
 
 import (
-	"github.com/WenyXu/better-alipay-go/global"
-	"github.com/WenyXu/better-alipay-go/m"
-	"github.com/WenyXu/better-alipay-go/options"
+	"github.com/senrok/alipay-go-kit/global"
+	"github.com/senrok/alipay-go-kit/m"
+	"github.com/senrok/alipay-go-kit/options"
 	"os"
 )
 

@@ -18,8 +18,8 @@ import (
 	"encoding/base64"
 	"hash"
 
-	"github.com/WenyXu/better-alipay-go/global"
-	m "github.com/WenyXu/better-alipay-go/m"
+	"github.com/senrok/alipay-go-kit/global"
+	m "github.com/senrok/alipay-go-kit/m"
 )
 
 type LoadPublicKeyFunc func() (publicKey *rsa.PublicKey, err error)

@@ -9,9 +9,9 @@ package alipay
 import (
 	"context"
 
-	"github.com/WenyXu/better-alipay-go/config"
-	m "github.com/WenyXu/better-alipay-go/m"
-	"github.com/WenyXu/better-alipay-go/options"
+	"github.com/senrok/alipay-go-kit/config"
+	m "github.com/senrok/alipay-go-kit/m"
+	"github.com/senrok/alipay-go-kit/options"
 )
 
 type Service interface {

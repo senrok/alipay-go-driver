@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WenyXu/better-alipay-go/cert"
-	"github.com/WenyXu/better-alipay-go/config"
-	"github.com/WenyXu/better-alipay-go/global"
-	"github.com/WenyXu/better-alipay-go/logger"
-	m "github.com/WenyXu/better-alipay-go/m"
+	"github.com/senrok/alipay-go-kit/cert"
+	"github.com/senrok/alipay-go-kit/config"
+	"github.com/senrok/alipay-go-kit/global"
+	"github.com/senrok/alipay-go-kit/logger"
+	m "github.com/senrok/alipay-go-kit/m"
 )
 
 func InitTransport() http.RoundTripper {

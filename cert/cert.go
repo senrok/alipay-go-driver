@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/WenyXu/better-alipay-go/global"
-	"github.com/WenyXu/better-alipay-go/sign"
+	"github.com/senrok/alipay-go-kit/global"
+	"github.com/senrok/alipay-go-kit/sign"
 )
 
 // LoadCertSN load root cert sn form path or bytes

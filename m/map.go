@@ -16,7 +16,7 @@ import (
 	"sort"
 	"strings"
 
-	errorsMsg "github.com/WenyXu/better-alipay-go/errors"
+	errorsMsg "github.com/senrok/alipay-go-kit/errors"
 )
 
 type M map[string]interface{}

@@ -14,10 +14,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/WenyXu/better-alipay-go/cert"
-	"github.com/WenyXu/better-alipay-go/global"
-	m "github.com/WenyXu/better-alipay-go/m"
-	"github.com/WenyXu/better-alipay-go/sign"
+	"github.com/senrok/alipay-go-kit/cert"
+	"github.com/senrok/alipay-go-kit/global"
+	m "github.com/senrok/alipay-go-kit/m"
+	"github.com/senrok/alipay-go-kit/sign"
 )
 
 type Config struct {
