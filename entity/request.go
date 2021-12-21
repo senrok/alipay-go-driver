@@ -19,11 +19,34 @@ func (c ErrorResponse) Failed() bool {
 	return c.Code != ""
 }
 
+type AlipayResponseCommon interface {
+	GetCode() string
+	GetMsg() string
+	GetSubMsg() string
+	GetSubCode() string
+}
+
 type Common struct {
 	Code    string `json:"code"`
 	Msg     string `json:"msg"`
 	SubCode string `json:"sub_code"`
 	SubMsg  string `json:"sub_msg"`
+}
+
+func (c Common) GetCode() string {
+	return c.Code
+}
+
+func (c Common) GetMsg() string {
+	return c.Msg
+}
+
+func (c Common) GetSubCode() string {
+	return c.SubCode
+}
+
+func (c Common) GetSubMsg() string {
+	return c.SubMsg
 }
 
 func (c Common) Success() bool {
